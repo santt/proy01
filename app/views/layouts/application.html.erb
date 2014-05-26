@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ProyE</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+<title>Pruebas</title>
 </head>
 <body>
 
-<%= yield %>
+<div style="background-color: blue; width: 100%; height: 60px; text-align:center;"> <!-- Encabezado-->
+  <h1 style="color: red; padding: 10px;">Titulo</h1> 
+</div>
+<!-- Fin Encabezado-->
+
+<div style="background-color: azure; width: 100%; height: 80px; text-align:center; margin-top: 10px; font-size: 25px; padding-top: 30px; padding-left:200px;"><!-- Enlaces-->
+  <a href="">Enlace1</a>
+  <a href="">Enlace2</a>
+  <a href="">Enlace3</a>
+  <a href="">Enlace4</a>
+</div><!-- Fin enlaces-->
+
+<div style="background-color: aquamarine; margin-top: 30px"><!-- Cuerpo-->
+  <table>
+     <tr>
+        <td>
+            <div style="background-color: beige; width: 200px; max-height: 500px; padding: 10px 20px;"><!-- Resumen de lo que trata tu pagina-->
+              t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+            </div><!--Fin Resumen de lo que trata tu pagina-->
+        </td>
+        <td>
+          <div style="background-image: url(img01.jpg); width: 100%; height: 300px; color: white;"><!-- Contenido-->
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</div>
+        </td><!-- Fin Contenido-->
+     </tr>
+  </table>
+</div><!--Fin Cuerpo-->
+
+     
+<div style="background-color: floralwhite;"><!--Info-->
+  <p>Tus datos</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+</div><!--Fin Info-->
+      
+     
 
 </body>
 </html>
